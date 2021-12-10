@@ -33,7 +33,8 @@ function removeTodo(id: number) {
 </script>
 
 <template>
-  <span class="text-4xl font-semibold">NEW TODO: </span><TodoInput v-on:add="addTodo" />
+  <span class="text-4xl font-semibold">NEW TODO: </span>
+  <TodoInput v-on:add="addTodo" />
   <section class="my-10">
     <h1 class="text-4xl font-semibold">TODOs</h1>
 
